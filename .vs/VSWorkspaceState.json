@@ -1,4 +1,8 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\AStarAlgorithm"
+  ],
+  "SelectedNode": "\\AStarAlgorithm\\AStarAlgorithm.cpp",
   "PreviewInSolutionExplorer": false
 }

@@ -1,4 +1,3 @@
 ﻿  AStarAlgorithm.cpp
-C:\Users\Tadahiro Obayashi\source\repos\AStarAlgorithm\AStarAlgorithm\AStarAlgorithm.cpp(15,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Tadahiro Obayashi\source\repos\AStarAlgorithm\AStarAlgorithm\AStarAlgorithm.cpp(19,10): warning C4101: 'node': unreferenced local variable
-  AStarAlgorithm.vcxproj -> C:\Users\Tadahiro Obayashi\source\repos\AStarAlgorithm\x64\Debug\AStarAlgorithm.exe
+C:\Users\Tadahiro Obayashi\Desktop\A-Algorithm\AStarAlgorithm\AStarAlgorithm.cpp(16,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  AStarAlgorithm.vcxproj -> C:\Users\Tadahiro Obayashi\Desktop\A-Algorithm\x64\Debug\AStarAlgorithm.exe

@@ -11,32 +11,32 @@ using namespace std;
 
 int main()
 {
+    while (true) {
 
     srand(time(0));
-    
     int defaultXPos;
     int defaultYPos;
-    char node[100][100];
+
     cout << "X Position: ";
     cin >> defaultXPos;
     cout << "Y Position: ";
     cin >> defaultYPos;
+    cout << "(" << defaultXPos << "," << defaultYPos << ")";
     int const gridSize = 100;
     char grid[gridSize][gridSize];
 
-    //creates grid for algorithm 
     for (int i = 0; i < gridSize; i++) {
+
+        grid[defaultXPos][defaultYPos] = 'X';
+
         if (i % 10 == 0) {
             cout << endl;
-        }  
-        
-        
-        grid[i][i] = 'X';  
-        grid[defaultXPos][defaultYPos] = 'O';
+        }
+        grid[i][i] = 'O';
         cout << grid[i][i] << " ";
         
     }
-
- 
+    cout << endl;      
+    }
 }
 
